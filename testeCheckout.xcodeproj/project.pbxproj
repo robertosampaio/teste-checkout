@@ -21,6 +21,8 @@
 		D7A585471986877600B16260 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7A585291986877600B16260 /* UIKit.framework */; };
 		D7A5854F1986877600B16260 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D7A5854D1986877600B16260 /* InfoPlist.strings */; };
 		D7A585511986877600B16260 /* testeCheckoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A585501986877600B16260 /* testeCheckoutTests.m */; };
+		D7A5855D1986885F00B16260 /* TesteTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A5855B1986885F00B16260 /* TesteTableViewController.m */; };
+		D7A5855E1986885F00B16260 /* TesteTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7A5855C1986885F00B16260 /* TesteTableViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		D7A5854C1986877600B16260 /* testeCheckoutTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testeCheckoutTests-Info.plist"; sourceTree = "<group>"; };
 		D7A5854E1986877600B16260 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D7A585501986877600B16260 /* testeCheckoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testeCheckoutTests.m; sourceTree = "<group>"; };
+		D7A5855A1986885F00B16260 /* TesteTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TesteTableViewController.h; sourceTree = "<group>"; };
+		D7A5855B1986885F00B16260 /* TesteTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TesteTableViewController.m; sourceTree = "<group>"; };
+		D7A5855C1986885F00B16260 /* TesteTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TesteTableViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +87,9 @@
 		D7A585191986877600B16260 = {
 			isa = PBXGroup;
 			children = (
+				D7A5855A1986885F00B16260 /* TesteTableViewController.h */,
+				D7A5855B1986885F00B16260 /* TesteTableViewController.m */,
+				D7A5855C1986885F00B16260 /* TesteTableViewController.xib */,
 				D7A5852B1986877600B16260 /* testeCheckout */,
 				D7A5854A1986877600B16260 /* testeCheckoutTests */,
 				D7A585241986877600B16260 /* Frameworks */,
@@ -229,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7A5853E1986877600B16260 /* Images.xcassets in Resources */,
+				D7A5855E1986885F00B16260 /* TesteTableViewController.xib in Resources */,
 				D7A585301986877600B16260 /* InfoPlist.strings in Resources */,
 				D7A585391986877600B16260 /* Main.storyboard in Resources */,
 			);
@@ -250,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7A5853C1986877600B16260 /* ViewController.m in Sources */,
+				D7A5855D1986885F00B16260 /* TesteTableViewController.m in Sources */,
 				D7A585361986877600B16260 /* AppDelegate.m in Sources */,
 				D7A585321986877600B16260 /* main.m in Sources */,
 			);
@@ -456,6 +466,7 @@
 				D7A585561986877600B16260 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7A585571986877600B16260 /* Build configuration list for PBXNativeTarget "testeCheckoutTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +475,7 @@
 				D7A585591986877600B16260 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
