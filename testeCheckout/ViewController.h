@@ -10,4 +10,6 @@
 
 @interface ViewController : UIViewController
 
+@property IBOutlet UILabel *label;
+
 @end
